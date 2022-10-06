@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#container{
+    margin: 0 auto;
+    width: 400px;
+    height: 800px;
+    background-color: #f5f5f5;
+}
+
+#barra_superior{
+    width: 400px;
+    height: 3px;
+    background-color: #f6db7b;
+    margin-bottom: 12px;
+}
+
+#quadrado{
+    width: 25px;
+    height: 25px;
+    background-color: rgba(239, 190, 14, 0.55);
+    border-radius: 5px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+#inscrever{
+    font-size: 36px;
+    font-family: 'roboto', 'arial', 'sans-serif';
+    margin-left: 43px;
+    margin-top: -30px;
+}
+
+#fundo_form{
+    margin: 0 auto;
+    width: 340px;
+    height: 640px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+#label_nome{
+    font-family: roboto;
+    font-size: 18px;
+    margin-left: 20px;    
+}
+
+#input_nome{
+    width: 300px;
+    height: 35px;
+    background-color: #c5c5c5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px #FFF8E1;
+    border: 0px;
+    margin-left: 20px;
+    outline: none;
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+
+#label_email{
+    font-family: roboto;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+#input_email{
+    width: 300px;
+    height: 35px;
+    background-color: #c5c5c5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px #FFF8E1;
+    border: 0px;
+    margin-left: 20px;
+    outline: none;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+
+#label_senha{
+    font-family: roboto;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+#input_password{
+    width: 300px;
+    height: 35px;
+    background-color: #c5c5c5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px #FFF8E1;
+    border: 0px;
+    margin-left: 20px;
+    outline: none;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+
+/* #esconder_senha{
+    width: 18px;
+    height: 18px;
+    opacity: 0.2;
+    margin-top: -48px;
+    margin-bottom: 48px;
+    margin-left: 293px;
+} */
+
+#label_cep{
+    font-family: roboto;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+#input_cep{
+    width: 120px;
+    height: 35px;
+    background-color: #c5c5c5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px #FFF8E1;
+    border: 0px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    padding-left: 5px;
+}
+
+#label_numero{
+    font-family: roboto;
+    font-size: 18px;
+    margin-left: 115px;
+}
+
+#input_numero{
+    width: 150px;
+    height: 35px;
+    background-color: #c5c5c5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px #FFF8E1;
+    border: 0px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    padding-left: 5px;
+}
+
+#label_rua{
+    font-family: roboto;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+#input_rua{
+    width: 300px;
+    height: 35px;
+    background-color: #c5c5c5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px #FFF8E1;
+    border: 0px;
+    margin-left: 20px;
+    outline: none;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+
+#label_cidade{
+    font-family: roboto;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+#select_cidade{
+    width: 308px;
+    height: 35px;
+    background-color: #c5c5c5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px #FFF8E1;
+    border: 0px;
+    margin-left: 20px;
+    outline: none;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+
+#chk_termos{
+    font-family: roboto;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#label_termos{
+    font-family: roboto;
+    font-size: 1em;
+}
+
+#btn_enviar{
+    margin-left: 20px;
+    background-color: #F6DB7B;
+    border: 0;
+    width: 180px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    font: 20px 'roboto', 'bold';
+    color: #D89004;
+}

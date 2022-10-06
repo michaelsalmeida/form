@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Tela 03</title>
+</head>
+
+<body>
+    <div id="container">
+        <canvas id="barra_superior"></canvas>
+        <canvas id="quadrado"></canvas>
+        <p id="inscrever">Inscreva-se</p>
+
+        <div id="fundo_form">
+            <form action="">
+                <label for="fnome" id="label_nome">Nome</label>
+                <input type="text" id="input_nome">
+
+                <label for="femail" id="label_email">Email</label>
+                <input type="email" id="input_email">
+
+                <label for="fsenha" id="label_senha">Senha</label>
+                <input type="password" id="input_password">
+                <!-- <img src="/img//esconder.svg" alt="esconder a senha" id="esconder_senha"> -->
+
+                <label for="fcep" id="label_cep">CEP</label>
+                <label for="fnumero" id="label_numero">Número</label>
+                <br>
+                <input type="text" id="input_cep">
+                <input type="text" id="input_numero">
+
+                <label for="frua" id="label_rua">Rua</label>
+                <input type="text" id="input_rua">
+
+                <label for="fcidade" id="label_cidade">Cidade</label>
+                <select id="select_cidade">
+                    <option value="">Selecione uma cidade</option>
+                    <option value="saopaulo">São Paulo</option>
+                    <option value="riodejaneiro">Rio de Janeiro</option>
+                    <option value="belohorizonte">Belo Horizonte</option>
+                </select>
+
+                <input type="checkbox" id="chk_termos">
+                <label for="ftermos" id="label_termos">Concordo com os termos e Condições</label>
+
+                <input type="button" id="btn_enviar" value="Cadastrar Conta">
+
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
